@@ -19,6 +19,11 @@ namespace PizzaMaster
             {
                 HandleOrderPizza(context);
             }
+            else
+            {
+                context.Response.StatusCode = 405;
+                SendResponseToContext("405 Bad Method", ref context);
+            }
             context.Response.OutputStream.Close();
         }
 
