@@ -39,11 +39,11 @@ namespace PizzaMaster
             catch (FormatException exception)
             {
                 context.Response.StatusCode = 400;
-                response = exception.Message;
+                response = "400 Bad Request\n" + exception.Message;
             } catch (ArgumentException exception)
             {
                 context.Response.StatusCode = 400;
-                response = exception.Message;
+                response = "400 Bad Request\n" + exception.Message;
             }
             finally
             {

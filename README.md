@@ -8,7 +8,7 @@ Use Visual Studio on Windows/Mac or Mono on Linux to compile the program.
 
 ## Usage
 
-Once you are in the directory of the executable
+Once you are in the directory of the executable:
 
 ```
 $ ./PizzaMaster
@@ -16,7 +16,7 @@ $ ./PizzaMaster
 
 ## Access
 
-The URL to access it is https://localhost:12345/PizzaMaster
+The URL to access it is http://localhost:12345/PizzaMaster
 
 Be sure that this port don't already have a service running on.
 

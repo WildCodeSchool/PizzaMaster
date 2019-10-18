@@ -21,7 +21,7 @@ namespace PizzaMaster
                 string postParameterValue = Parameters[key];
                 if (postParameterValue == null)
                 {
-                    throw new ArgumentException("Set nbPizzas to a value");
+                    throw new ArgumentException("Correct request data is 'nbPizzas=[number of pizzas to order]'");
                 }
                 return postParameterValue;
             }
